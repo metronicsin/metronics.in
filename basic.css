@@ -13,7 +13,6 @@ body {
 
 div.top {
     position: fixed;
-/*    top: 0;*/
     display: block;
     margin: 0;
     padding: 0;
@@ -75,6 +74,13 @@ div.portion {
     padding: 25%;
     font-size: 2.5rem;
     text-align: center;
+}
+
+div.portion.a {
+    min-height: 50vh;
+    padding: 25%;
+    padding-top: 35vh;
+    padding-bottom: 15vh;
 }
 
 div.portion small {
