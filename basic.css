@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
     transition: all 4s;
@@ -13,12 +13,11 @@ body {
 
 div.top {
     position: fixed;
-    top: 0;
+/*    top: 0;*/
     display: block;
     margin: 0;
     padding: 0;
     background-color: rgba(20, 20, 20, 0.9);
-    float: left;
     width: 100%;
 }
 
@@ -28,7 +27,7 @@ div.cname {
     padding: 4vh;
     margin: 0;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.4em;
     line-height: 0.34em;
     float: left;
 }
@@ -45,6 +44,7 @@ div.caside {
     float: right;
     display: block;
     padding: 4vh;
+    font-size: 0.7em;
     margin: 0;
 }
 
@@ -72,8 +72,8 @@ span.csymbol {
 div.portion {
     display: block;
     margin: 0;
-    padding: 20%;
-    font-size: 3.5em;
+    padding: 25%;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ div.foot {
     background-image: none;
     font-size: 1em;
     text-align: center;
-    padding: 2%;
+    padding: 5%;
 }
 
 span.csoon {
