@@ -20,6 +20,11 @@ div.top {
     width: 100%;
 }
 
+img.clogo {
+    width: 30px;
+    display: inline-flex;
+}
+
 div.cname {
     display: block;
     text-align: left;
@@ -33,7 +38,6 @@ div.cname {
 
 div.cplace {
     display: inline;
-    text-align: left;
     padding: 0;
     margin: 0;
     font-size: 0.5em;
