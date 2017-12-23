@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
-* {
-    transition: all 4s;
-}
-
 body {
     font-family: 'Oxygen';
     margin: 0;
     background-color: #244;
     color: #fff;
+    transition: all 4s;
 }
 
 div.top {
