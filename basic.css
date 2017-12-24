@@ -96,7 +96,8 @@ div.portion.b {
 
 div.portion.c {
     font-family: 'Oxygen';
-    padding: 5%;
+    padding: 15%;
+    min-height: 90vh;
 }
 
 div.banner {
@@ -155,4 +156,25 @@ img.clogo2 {
 
 a.ulined {
     text-decoration: underline;
+}
+
+ul.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li.navitem {
+    display: block;
+    float: left;
+    padding: 1.5em;
+}
+li.navitem:hover {
+    background-color: rgba(40, 120, 100, 0.2);
+}
+
+nav {
+    text-align: center;
+    padding: 0;
 }
