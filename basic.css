@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 
 body {
     font-family: 'PT Sans';
@@ -75,15 +75,13 @@ div.portion {
     display: block;
     margin: 0;
     padding: 20%;
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: center;
 }
 
 div.portion.a {
-    min-height: 50vh;
     padding: 10%;
-    padding-top: 40vh;
-    padding-bottom: 10vh;
+    background-color: rgba(10, 10, 10, 0.4);
 }
 
 div.portion small {
@@ -91,11 +89,13 @@ div.portion small {
 }
 
 div.portion.b {
-    padding: 12%;
+    padding: 10%;
+    background-color: rgba(10, 10, 10, 0.4);
+    min-height: 50vh;
 }
 
 div.portion.c {
-    font-family: 'PT Sans';
+    font-family: 'Oxygen';
     padding: 5%;
 }
 
@@ -158,4 +158,8 @@ img.clogo {
 
 img.clogo2 {
     max-width: 100px;
+}
+
+a.ulined {
+    text-decoration: underline;
 }
