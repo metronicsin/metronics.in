@@ -21,13 +21,13 @@ div.nav {
     position: fixed;
     bottom: 0;
     text-align: right;
-    height: 3.4em;
+    height: 5.6em;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 /* shift body to not conflict with navbar */
 body {
-    margin-bottom: 3.4em;
+    margin-bottom: 5.6em;
 }
 
 @media only screen and (min-width : 1200px) {
@@ -38,8 +38,24 @@ body {
     /* shift body to not conflict with navbar */
     body {
         margin-bottom: 0;
-        margin-top: 3.4em;
+        margin-top: 5.6em;
     }
+}
+
+div.hcompany {
+    /* font-family: 'Oxygen'; */
+    text-transform: lowercase;
+    font-size: 1.2em;
+    padding: 0.3em;
+    padding-right: 2.0em;
+    text-align: right;
+    background-color: rgba(20, 20, 40, 0.79);
+    box-shadow: 0 0 5px #111;
+    border-right: 20px solid #ccc;
+}
+
+img.hlogo {
+    height: 1em;
 }
 
 ul.navbar {
@@ -49,7 +65,6 @@ ul.navbar {
     margin: 0;
     padding: 0;
     float: right;
-    background-color: rgba(20, 20, 20, 0.99);
 }
 
 a.navanchor {
@@ -108,7 +123,7 @@ div.portion.b {
 }
 
 div.foot {
-    background-color: #222;
+    background-color: #111;
     display: block;
     background-image: none;
     font-size: 1em;
@@ -177,4 +192,8 @@ table.contact td.cattribute {
 
 table.contact td.ctitle {
     text-align: center;
+}
+
+table.services td {
+    border: none;
 }
