@@ -194,6 +194,10 @@ table.contact td.ctitle {
     text-align: center;
 }
 
+table.services th {
+    padding: 2%;
+}
+
 table.services td {
     border: none;
 }
