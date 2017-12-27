@@ -222,15 +222,19 @@ table.enquiry td.textcontent {
     color: #555;
 }
 
+table.enquiry td.button {
+    padding: 4%;
+}
+
 table.enquiry button {
     display: inline-block;
-    padding: 1.5%;
+    padding: 2%;
     font-family: 'Oxygen';
     text-transform: uppercase;
     font-size: 0.9em;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 90, 80, 0.4);
     color: #fff;
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
