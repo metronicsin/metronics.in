@@ -219,7 +219,21 @@ table.enquiry td.textcontent {
     text-align: left;
     font-family: 'Helvetica Neue', sans-serif;
     border-bottom: 1px dashed #ccc;
-    color: #555;
+    color: #ddd;
+    padding: 1%;
+    margin: 1%;
+    outline: none;
+}
+
+table.enquiry td.textcontent:empty::before {
+    content: attr(placeholder);
+    color: #444;
+}
+
+table.enquiry td.textcontent:focus {
+    color: #fff;
+    font-size: 1.9em;
+    border-bottom: 2px solid #fff;
 }
 
 table.enquiry td.button {
