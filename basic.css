@@ -289,3 +289,27 @@ h3 {
 ul.points {
     list-style-type: circle;
 }
+
+ul.linkerlist {
+    list-style-type: none;
+    border-right: 10px solid white;
+}
+
+li.linkerlist {
+    font-size: smaller;
+    line-height: 4em;
+    display: inline-block;
+    padding: 2em;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    margin: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
+    cursor: pointer;
+}
+
+li.linkerlist:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
