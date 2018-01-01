@@ -143,6 +143,13 @@ span.cadress {
     display: block;
 }
 
+span.cnature {
+    font-size: 0.75em;
+    display: block;
+    margin: 0.5em;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
 table.cinfo {
     font-size: 2.1em;
     /*border: 1px dotted white;*/
