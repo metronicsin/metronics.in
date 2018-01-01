@@ -52,6 +52,7 @@ div.hcompany {
     background-color: rgba(20, 20, 40, 0.79);
     box-shadow: 0 0 5px #111;
     border-right: 20px solid #ccc;
+    letter-spacing: 0.3em;
 }
 
 img.hlogo {
@@ -217,22 +218,28 @@ table.enquiry td.textlabel {
     text-align: left;
 }
 
-table.enquiry td.textcontent {
+table.enquiry td.textcontent input, table.enquiry td.textcontent textarea {
     text-align: left;
     font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    width: 100%;
+    font-size: 1.0em;
+    border: none;
     border-bottom: 1px dashed #ccc;
     color: #ddd;
     padding: 1%;
     margin: 1%;
     outline: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin: 0;
 }
 
-table.enquiry td.textcontent:empty::before {
+/* table.enquiry td.textcontent input:empty::before {
     content: attr(placeholder);
     color: #444;
-}
+} */
 
-table.enquiry td.textcontent:focus {
+table.enquiry td.textcontent input:focus, table.enquiry td.textcontent textarea:focus {
     color: #fff;
     font-size: 1.9em;
     border-bottom: 2px solid #fff;

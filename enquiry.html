@@ -24,7 +24,7 @@
     </head>
     <body>
         <div class="nav">
-            <div class="hcompany">m e t r o n i c s . i n</div>
+            <div class="hcompany">metronics.in</div>
             <ul class="navbar">
                 <a href="/" class="navanchor"><li class="navitem">Home</li></a>
                 <a href="services.html" class="navanchor"><li class="navitem">Services</li></a>
@@ -46,36 +46,38 @@
         </div>
             
         <div class="portion a b">
+            <form id="eform" action="/submit" method="POST">
                 <table class="contact services enquiry">
                     <tr>
                         <td class="cattribute textlabel">Name</td>
-                        <td role="textbox" class="textcontent" contenteditable id="fullname" placeholder="Your full name.."></td>
+                        <td role="textbox" class="textcontent"><input formid="eform" type="text" id="fullname" placeholder="Your full name.."></td>
                     </tr>
                     <tr>
                         <td class="cattribute textlabel">Phone Number</td>
-                        <td class="textcontent" contenteditable id="contactnumber" placeholder="Your phone number. eg. +91-xxx-xxx-xxx"></td>
+                        <td class="textcontent"><input formid="eform" type="tel" id="contactnumber" placeholder="Your phone number. eg. +91-xxx-xxx-xxx"></td>
                     </tr>
                     <tr>
                         <td class="cattribute textlabel">Email Address</td>
-                        <td class="textcontent" contenteditable id="emailid" placeholder="Your email id. eg. abc@xyz.com"></td>
+                        <td class="textcontent"><input formid="eform" type="email" id="emailid" placeholder="Your email id. eg. abc@xyz.com"></td>
                     </tr>
                     <tr>
                         <td class="cattribute textlabel">Query</td>
-                        <td class="textcontent" contenteditable id="fullquery" placeholder="Specify your full query..."></td>
+                        <td class="textcontent"><textarea formid="eform" id="fullquery" placeholder="Specify your full query..."></textarea></td>
                     </tr>
                     <tr>
                         <td class="cattribute textlabel">Requirement</td>
-                        <td class="textcontent" contenteditable id="requirements" placeholder="Entire list of your requirements..."></td>
+                        <td class="textcontent"><textarea formid="eform" id="requirements" placeholder="Entire list of your requirements..."></textarea></td>
                     </tr>
                     <tr>
                         <td class="cattribute textlabel">Additional Comments</td>
-                        <td class="textcontent" contenteditable id="comments" placeholder="Message that you want to convey..."></td>
+                        <td class="textcontent"><textarea formid="eform" id="comments" placeholder="Message that you want to convey..."></textarea></td>
                     </tr>
                     <tr>
-                        <td class="button" colspan="2"><button type="submit">Enquire Now</button></td>
+                        <td class="button" colspan="2"><button formid="eform" type="submit">Enquire Now</button></td>
                     </tr>
                 </table>
-            </div>
+            </form>
+        </div>
         
         <div class="foot">
             Copyright &copy; 2016-18, <a href="https://www.metronics.in" class="email">Metronics</a>, India. All rights reserved.
