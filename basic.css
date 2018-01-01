@@ -292,7 +292,7 @@ ul.points {
 
 ul.linkerlist {
     list-style-type: none;
-    border-right: 10px solid white;
+    border-right: 10px solid #aaa;
 }
 
 li.linkerlist {
@@ -302,14 +302,18 @@ li.linkerlist {
     padding: 2em;
     width: 4em;
     height: 4em;
-    border-radius: 50%;
+    border-bottom-right-radius: 5%;
     margin: 1em;
     background-color: rgba(0, 0, 0, 0.5);
     /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
     cursor: pointer;
+    border-right: 5px solid #aaa;
+    border-bottom: 5px solid#aaa;
 }
 
 li.linkerlist:hover {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000;
+    font-size: 1.2em;
+    border-bottom-right-radius: 10%;
 }
