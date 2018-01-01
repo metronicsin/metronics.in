@@ -167,7 +167,7 @@ div.cheading {
 h1 {
     font-family: 'Helvetica Neue', 'Oxygen';
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 0;
 }
 
@@ -263,6 +263,15 @@ dl {
     font-size: 0.7em;
 }
 
-small {
+h4 {
     text-decoration: underline;
+    font-size: smaller;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+ul.points {
+    list-style-type: circle;
 }
