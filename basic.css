@@ -292,28 +292,30 @@ ul.points {
 
 ul.linkerlist {
     list-style-type: none;
-    border-right: 10px solid #aaa;
 }
 
 li.linkerlist {
     font-size: smaller;
     line-height: 4em;
     display: inline-block;
-    padding: 2em;
-    width: 4em;
-    height: 4em;
-    border-bottom-right-radius: 5%;
-    margin: 1em;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.4em;
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
     /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
     cursor: pointer;
-    border-right: 5px solid #aaa;
-    border-bottom: 5px solid#aaa;
+    /* border-right: 5px solid #aaa; */
+    /* border-bottom: 5px solid#aaa; */
 }
 
 li.linkerlist:hover {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000;
-    font-size: 1.2em;
-    border-bottom-right-radius: 10%;
+}
+
+li.linkerlist small {
+    font-size: 0.4em;
+}
+
+li.linkerlist:hover small {
+    font-size: 0.7em;
 }
