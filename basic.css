@@ -319,3 +319,19 @@ li.linkerlist small {
 li.linkerlist:hover small {
     font-size: 0.7em;
 }
+img.csrvimg {
+    max-width: 80%;
+    margin: 3%;
+    cursor: crosshair;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+img.csrvimg:hover {
+    max-width: 100%;
+    margin: 0%;
+}
+td.image {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
